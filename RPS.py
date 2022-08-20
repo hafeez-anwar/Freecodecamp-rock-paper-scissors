@@ -1,18 +1,13 @@
 # Created by: Dr. Hafeez Anwar
 # Date: August 20, 2022
-# This is the solution to the first exercise of the course
-# MACHINE LEARNING with PYTHON on freecodecamp.org
-# There are FOUR opponent players namely
-# 1.quincy 2.mrugesh 3.kris and 4.Abbey
-# Each player has it own strategy.
-# We will design a solution in the FUNCTION PLAYER,
-# to win from all these opponents with a winning rate of >60%
+# This is the solution to the first exercise of the course MACHINE LEARNING with PYTHON on freecodecamp.org
+# There are FOUR opponent players namely 1.quincy 2.mrugesh 3.kris and 4.Abbey
+# Each player has it own strategy. We will design a solution in the FUNCTION PLAYER, to win from all these opponents 
+# with a winning rate of >60%
 
 # Our strategy is simple,
-# FIRST: Each time, the LIST opponent_history is cleared,
-# becuase it accumulates all histories of the previous plays
-# as well. Hence, the opponent_history starts with an empty
-# string
+# FIRST: Each time, the LIST opponent_history is cleared, becuase it accumulates all histories of the previous plays
+# as well. Hence, the opponent_history starts with an empty string
 
 # SECOND: Play one move for FIRST FIVE TIMES i.e. GUESS = 'P'
 # This allows us to spot the opponent's strategy which is
