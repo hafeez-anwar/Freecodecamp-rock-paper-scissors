@@ -91,11 +91,11 @@ def abbey_strategy(prev_play,opponent_history):
     elif opponent_history[-2]!=opponent_history[-1]:
         if opponent_history[-3]!=opponent_history[-2]:
             if prev_play=='P':
-                return ideal_response[prev_play]
+                return ideal_response[opponent_history[-4]]
             elif prev_play=='R':
-                return ideal_response[prev_play]
+                return ideal_response[opponent_history[-4]]
             else:
-                return ideal_response['S']
+                return ideal_response[opponent_history[-4]]
         else:
             return prev_play
 
